@@ -59,7 +59,7 @@ class CalendarScreen extends Component {
           onSwipePrev={(e) => console.log('onSwipePrev: ', e)}
           onSwipeNext={(e) => console.log('onSwipeNext', e)}
         />
-        <Text>Selected Date: {moment(this.state.selectedDate).format('MMMM DD YYYY')}</Text>
+        <Text>Selected Date: edit for git hub {moment(this.state.selectedDate).format('MMMM DD YYYY')}</Text>
       </View>
     )
   }
